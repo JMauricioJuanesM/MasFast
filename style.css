@@ -27,7 +27,7 @@ body {
   height:100px;
   background:#fff;
   position:absolute;
-  top:-50px;
+  top:-30px;
   left:0;
   transform:skewY(-4deg);
   -webkit-transform:skewY(-4deg);
