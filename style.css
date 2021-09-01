@@ -42,12 +42,13 @@ body {
 }
 
 .circles p {
-	font-size: 240px;
+	font-size: 220px;
 	color: #fff;
 	padding-top: 60px;
 	position: relative;
   z-index: 9;
   line-height: 100%;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .circles p small { 
