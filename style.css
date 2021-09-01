@@ -102,6 +102,10 @@ body {
 	-webkit-animation-delay: 1s;
 }
 
+p {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 @-webkit-keyframes smallmove {
 	0% { top: 10px; left: 45%; opacity: 1; }
 	25% { top: 300px; left: 40%; opacity:0.7; }
