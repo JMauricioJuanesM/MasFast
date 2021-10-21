@@ -666,6 +666,13 @@ span {
     transform: rotate(-25deg) translateY(-15%);
 }
 
+.seller-image {
+    max-width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 95px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .about-image .app {
