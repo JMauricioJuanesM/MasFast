@@ -661,8 +661,8 @@ span {
 .about-image .app {
     /*max-width: 280px;*/
     position: absolute;
-    top: 75px;
-    left: 50px;
+    top: 70px;
+    left: -20px;
     /*transform: rotate(-25deg) translateY(-15%);*/
 }
 
@@ -676,7 +676,7 @@ span {
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .about-image .app {
-        max-width: 250px;
+        max-width: 380px;
     }
 }
 
