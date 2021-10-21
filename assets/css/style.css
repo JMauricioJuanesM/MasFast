@@ -663,7 +663,7 @@ span {
     position: absolute;
     top: 100px;
     left: 95px;
-    transform: rotate(-25deg) translateY(-15%);
+    /*transform: rotate(-25deg) translateY(-15%);*/
 }
 
 .seller-image {
