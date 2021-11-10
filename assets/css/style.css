@@ -322,6 +322,8 @@ span {
     }
 }
 
+
+
 .navbar-light .navbar-toggler {
     color: transparent;
     border-color: transparent;
@@ -415,16 +417,16 @@ span {
     width: 19px;
     height: 19px;
     left: 26px;
-    bottom: 25%;
+    bottom: 50%;
     border-radius: 50%;
-    background: #ff846f;
+    background: #072779;
     animation: animation-1 2s linear infinite;
 }
 
 .header-hero .shape.shape-4 {
     width: 39px;
     height: 39px;
-    left: 40%;
+    left: 5%;
     top: 175px;
     border-radius: 50%;
     background: #4ebaf5;
@@ -434,18 +436,18 @@ span {
 .header-hero .shape.shape-5 {
     width: 19px;
     height: 19px;
-    left: 50%;
-    bottom: 20%;
+    left: 90%;
+    bottom: 43%;
     border-radius: 50%;
-    background: #ff5b56;
+    background: #072779;
     animation: animation-1 2s linear infinite;
 }
 
 .header-hero .shape.shape-6 {
     width: 14px;
     height: 14px;
-    left: 45%;
-    bottom: 75%;
+    left: 20%;
+    bottom: 80%;
     border-radius: 50%;
     background: #4ebaf5;
     animation: animation-1 2s linear infinite;
@@ -677,6 +679,38 @@ span {
 (max-width: 767px) {
     .about-image .app {
         max-width: 380px;
+        top: -30px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .about-image{
+        padding-top: 0px;
+        padding-bottom:0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .mt-50{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .about-image#business  {
+        max-width: 380px;
+        top: -30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+    .about-shape#business1  {
+        top: 0px;
     }
 }
 
@@ -690,7 +724,7 @@ span {
 }
 
 .about-content .main-btn {
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 /* --------- Testimonial css ---------- */
