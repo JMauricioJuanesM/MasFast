@@ -69,18 +69,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" data-scroll-nav="0" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" data-scroll-nav="0" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="1" href="#">Beneficios</a>
+                  <a class="nav-link" data-scroll-nav="1" href="#beneficios">Beneficios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="2" href="#">Acerca de</a>
+                  <a class="nav-link" data-scroll-nav="2" href="#restaurantes">Restarurantes</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-scroll-nav="3" href="#">Testimonios</a>
+                  <a class="nav-link" data-scroll-nav="3" href="#repartidores">Repartidores</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                   <a class="nav-link" data-scroll-nav="4" href="#">Precios</a>
                 </li>
                 <li class="nav-item">
@@ -88,7 +88,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-scroll-nav="6" href="#">Descargar</a>
-                </li>
+                </li> -->
 
 
               </ul>
@@ -117,7 +117,7 @@
                 buscas en nuestra app, desde unos ricos tacos al pastor (con harta salsa), hamburguesas, pizzas, hasta
                 tus medicamentos y tu mandado del super. Todo hasta la comodidad de tu casa 👍.</p>
               <ul class="d-flex">
-                <li><a href="https://masfast.page.link/desc" rel="follow" class="main-btn wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Descargar
+                <li><a href="https://masfast.page.link/desc" target="_blank" rel="noopener noreferrer" class="main-btn wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Descargar
                     Ahora</a></li>
                 <!--<li><a href="https://www.youtube.com/watch?v=DxHYso7lDlg" class="header-video venobox wow fadeInLeftBig"
                     data-autoplay="true" data-vbtype="video" data-wow-duration="3s" data-wow-delay="1.2s"><i
@@ -145,8 +145,8 @@
   <!--------   Header End ----  -->
 
   <!-- ------- Feature Section Start ---------- -->
-  <section class="feature-section pt-80" data-scroll-index="1">
-    <div class="container">
+  <section data-bs-spy="scroll" class="feature-section pt-80" data-scroll-index="1" >
+    <div class="container" id="beneficios">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-7">
           <div class="section-title text-center mb-30">
@@ -189,12 +189,12 @@
           <div class="single-feature wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.6s">
             <div class="icon color-3">
               <icon class="material-icons md-48" class="feature-icon">
-                local_taxi
+                inventory
               </icon>
             </div>
             <div class="content">
-              <h3>Llega más rápido</h3>
-              <p> ¿Siempre llegas tarde?, pide un Taxi MasFast y llega a donde tu quieras, ya no necesitas más apps.
+              <h3>Envía tus pedidos</h3>
+              <p> Puedes enviar tus ventas con nosotros, si vendes por facebook o instagram ¡Nosotros nos encargamos de tus envíos locales!
               </p>
             </div>
           </div>
@@ -205,7 +205,7 @@
   <!-- ------- Feature Section End ---------- -->
 
   <!-- ----------- Store Section Start --------- -->
-  <section class="about-area pt-70 pb-120" data-scroll-index="2">
+  <section class="about-area pt-70 pb-120" data-scroll-index="2" id="restaurantes">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -220,11 +220,11 @@
               <h1 class="title"> ¡Vende en <span
                 class="title-masfast">MasFast</span>!</h1>
               <p class="text">¿Tienes un negocio? Registrate en MasFast, aumenta tus ventas, encuntra nuevos clientes y
-                mejora tu relación con los que ya tienes.
+                mejora tu servicio con los que ya tienes.
               </p>
             </div>
             <a href="https://api.whatsapp.com/send/?phone=%2B5214921347658&text=%C2%A1Hola%21+los+contacto+por+que+me+interesa+ser+%2AVendedor%2A+en+MasFast&app_absent=0"
-              class="main-btn">Registrarse Ahora</a>
+              class="main-btn" target="_blank" rel="noopener noreferrer">Registrarse Ahora</a>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
   <!-- ----------- Store Section End --------- -->
 
   <!---- Masfaster Section Start ------>
-  <div class="container">
+  <div class="container" id = "repartidores">
     <div class="row align-items-center justify-content-center justify-content-lg-between">
       <div class="col-lg-6 col-md-10">
         <div class="header-hero-content">
@@ -241,7 +241,7 @@
               class="title-masfast">Masfaster</span>!</h1>
           <p class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s">Gana un dinero extra entregando a domicilio, puedes usar tu moto, bicicleta o automóvil. Tú decides cuánto trabajas y cuánto ganas, averigua como 👇</p>
           <ul class="d-flex">
-            <li><a href="https://api.whatsapp.com/send/?phone=%2B5214921347658&text=%C2%A1Hola%21+los+contacto+por+que+me+interesa+ser+%2ARepartidor%2A+en+MasFast&app_absent=0" class="main-btn wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Registrarse
+            <li><a href="https://api.whatsapp.com/send/?phone=%2B5214921347658&text=%C2%A1Hola%21+los+contacto+por+que+me+interesa+ser+%2ARepartidor%2A+en+MasFast&app_absent=0" target="_blank" rel="noopener noreferrer" class="main-btn wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Registrarse
                 Ahora</a></li>
 
           </ul>
@@ -539,13 +539,12 @@
               <a href="" class="logo">
                 <img src="assets/img/header/logo/landapp-logo.png" alt="">
               </a>
-              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat quo obcaecati
-                excepturi, iste nisi.</p>
+              <p class="text">Con MasFast es más fácil disfrutar de tus comidas favoritas, más rápido y hasta la puerta de tu casa.</p>
               <ul class="social">
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.facebook.com/masfast.shop" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/masfast.shop/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                <!--<li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li> -->
               </ul>
             </div>
           </div>
@@ -553,27 +552,27 @@
             <div class="footer-link d-flex flex-wrap">
               <div class="footer-link-wrapper mt-45">
                 <div class="footer-title">
-                  <h4 class="title">Quick Links</h4>
+                  <h4 class="title">Secciones</h4>
                 </div>
                 <ul class="link">
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Features</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Testimonial</a></li>
-                  <li><a href="">Pricing</a></li>
-                  <li><a href="">Download</a></li>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#beneficios">Beneficios</a></li>
+                  <li><a href="#restaurantes">Restarurantes</a></li>
+                  <li><a href="#repartidores">Repartidores</a></li>
+                  <!-- <li><a href="">Pricing</a></li>
+                  <li><a href="">Download</a></li> -->
                 </ul>
               </div>
               <div class="footer-link-wrapper mt-45">
                 <div class="footer-title">
-                  <h4 class="title">Support</h4>
+                  <h4 class="title">Legal</h4>
                 </div>
                 <ul class="link">
-                  <li><a href="">FAQ</a></li>
-                  <li><a href="https://masfast.shop/legal/politica-de-privacidad">Políticas de Privacidad</a></li>
-                  <li><a href="https://masfast.shop/legal/terminos-y-condiciones">Términos y Condiciones</a></li>
-                  <li><a href="">Legal</a></li>
-                  <li><a href="">Site Map</a></li>
+                  <!-- <li><a href="">FAQ</a></li> -->
+                  <li><a href="https://masfast.shop/legal/politica-de-privacidad" target="_blank" rel="noopener noreferrer">Políticas de Privacidad</a></li>
+                  <li><a href="https://masfast.shop/legal/terminos-y-condiciones" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a></li>
+                  <!-- <li><a href="">Legal</a></li>
+                  <li><a href="">Site Map</a></li> -->
                 </ul>
               </div>
             </div>
@@ -581,30 +580,30 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-contact mt-45">
               <div class="footer-title">
-                <h4 class="title">Quick Links</h4>
+                <h4 class="title">Contacto</h4>
               </div>
               <ul class="contact-list">
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
                       <p class="text"><i class="fas fa-phone-alt"></i>
-                        +809272561823 </p>
+                         492 134 7658 </p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
-                      <p class="text"><a href=""><i class="far fa-envelope"></i>
-                          landapp@gmail.com </a></p>
+                      <p class="text"><a href="mailto:masfast.app@gmail.com"><i class="far fa-envelope"></i>
+                           masfast.app@gmail.com </a></p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div class="contact-info">
                     <div class="info-content media-body">
-                      <p class="text"><a href=""><i class="fas fa-globe"></i>
-                          www.landapp.com </a></p>
+                      <p class="text"><a href="https://masfast.shop"><i class="fas fa-globe"></i>
+                           masfast.shop </a></p>
                     </div>
                   </div>
                 </li>
@@ -612,7 +611,7 @@
                   <div class="contact-info">
                     <div class="info-content media-body">
                       <p class="text"><i class="fas fa-map-marker-alt"></i>
-                        123 stree now york city, united states of america 750 </p>
+                         Centro, Río Grande, ZAC, MX. </p>
                     </div>
                   </div>
                 </li>
