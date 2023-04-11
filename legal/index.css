@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #00000;
+	color: #000000;
 	background: #f2f2f2;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -68,7 +68,7 @@ img {
 	display: block;
 	font-weight: 300;
 	font-size: .8em;
-	color: #999
+	color: rgb(122, 121, 182)
 }
 
 nav {
@@ -131,7 +131,7 @@ article {
 }
 
 .button {
-	background-color: #673AB7;
+	background-color: #4ea8f1;
 	border: none;
 	color: #fff;
 	padding: 15px 32px;
@@ -147,6 +147,6 @@ article {
 }
 
 .button:hover {
-	background-color: #4caf50;
+	background-color: #1d49a8;
 	color: #fff
 }
