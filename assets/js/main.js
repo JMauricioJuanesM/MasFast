@@ -33,3 +33,12 @@ $(function () {
     //   scrollit js
     $.scrollIt();
 });
+
+let urlParams = new URLSearchParams(window.location.search);
+let storeName = urlParams.get('store');
+let storeHeader = document.getElementById('page-subtitle');
+if (storeName && storeName.trim() !== '') {
+    storeHeader.innerHTML = "Enuentra "+storeName +" en MasFast 😎🛵📦";
+} else {
+    storeHeader.innerHTML = "Más fácil, más rápido en MasFast 😎🛵🌮";
+}
