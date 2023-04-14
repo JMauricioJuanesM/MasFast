@@ -31,6 +31,17 @@
 </head>
 
 <body>
+  <h1 id="store-name"></h1>
+	<script type="text/javascript">
+		let urlParams = new URLSearchParams(window.location.search);
+		let storeName = urlParams.get('store');
+		let storeHeader = document.getElementById('store-name');
+		if (storeName && storeName.trim() !== '') {
+			storeHeader.innerHTML = storeName;
+		} else {
+			storeHeader.innerHTML = "Nombre de tienda no disponible";
+		}
+	</script>
   <!-- --------- preloader ------------ -->
   <div class="preloader">
     <div class="loader">
