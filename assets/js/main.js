@@ -38,7 +38,30 @@ let urlParams = new URLSearchParams(window.location.search);
 let storeName = urlParams.get('store');
 let storeHeader = document.getElementById('page-subtitle');
 if (storeName && storeName.trim() !== '') {
-    storeHeader.innerHTML = "Enuentra "+storeName +" en MasFast 😎🛵📦";
+    storeHeader.innerHTML = "Encuentra "+storeName +" en MasFast 😎🛵📦";
 } else {
     storeHeader.innerHTML = "Más fácil, más rápido en MasFast 😎🛵🌮";
 }
+
+// Obtener el valor del argumento "store" de la URL
+const urlParams2 = new URLSearchParams(window.location.search);
+const store = urlParams2.get('store');
+
+
+
+const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B5214921347658&text=¡Hola!%20Quiero%20ordenar%20en%20 ${store}.%20¿Cómo%20puedo%20hacerlo?`;
+const whatsappUrlDefault = `https://api.whatsapp.com/send/?phone=%2B5214921347658&text=¡Hola!%20Quiero%20ordenar%20en%20MasFast.%20¿Cómo%20puedo%20hacerlo?`;
+
+// Asignar la URL de WhatsApp al enlace
+const link = document.getElementById('whatsapp-link');
+
+if (store && store.trim() !== "null") {
+    link.href = whatsappUrl;
+} else {
+    link.href = whatsappUrlDefault;   
+}
+
+
+
+
+
